@@ -1,0 +1,38 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  /* margin-top: 60px; */
+}
+.bg-grey-400,.bg-grey-600{
+  background-color: #fff !important;
+  color: #2c3e50 !important;
+}
+.bg-grey-400 .w-full input{
+  color: #000 !important;
+}
+.header-top{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 50px;
+  font-size:15px;
+  line-height:50px;
+  background-color:#e5e5e5;
+  border-bottom: 1px solid rgb(213 213 213);
+  
+}
+.online{
+  display:block;
+  height:10px;
+  width:10px;
+  border-radius: 45px;
+  background-color:rgb(130, 250, 93);
+  margin-left:-5px;
+}
+html {
+  background-color:#f2f3f5;
+  height:100%
+}
